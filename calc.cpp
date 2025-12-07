@@ -3,6 +3,28 @@
 #define el '\n'
 using namespace std;
 
+ll add(ll x,ll y){
+    return x+y;
+}
+
+double add(double x,double y){
+    return x+y;
+}
+
+ll mul(ll x ,ll y){
+    return x*y;
+}
+
+double mul(double x,double y){
+    return x*y;
+}
+
+double power(double base, double exp){
+    if(exp==0) return 1;
+    return power(base,exp-1);
+}
+
+
 ll sub(ll x, ll y)
 {
     return (x - y);
